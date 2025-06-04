@@ -8,3 +8,6 @@ Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debu
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debug\01_Mi_proimea_vez.exe
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debug\01_Mi_proimea_vez.pdb
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debug\_01_Mi_proimea_vez.Vistas.Calculadora.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debug\_01_Mi_proimea_vez.Vistas.Menu_Principal.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debug\_01_Mi_proimea_vez.Vistas.Agenda.Agenda.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\01_Mi_proimea_vez\obj\Debug\_01_Mi_proimea_vez.login.resources

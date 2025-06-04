@@ -251,7 +251,7 @@ namespace _01_Mi_proimea_vez.Vistas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 398);
+            this.ClientSize = new System.Drawing.Size(624, 375);
             this.Controls.Add(this.btn_Eliminar);
             this.Controls.Add(this.btn_igual);
             this.Controls.Add(this.lst_Operaciones);

@@ -16,7 +16,7 @@ namespace _01_Mi_proimea_vez
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Vistas.Calculadora());
+            Application.Run(new login());
         }
     }
 }
