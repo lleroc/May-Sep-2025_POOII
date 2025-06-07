@@ -8,15 +8,17 @@ namespace _01_Mi_proimea_vez
 {
     static class Program
     {
-        /// <summary>
-        /// Punto de entrada principal para la aplicación.
-        /// </summary>
+        //Variables Globales
+        public static int UsuarioId;
+        public static string NombreUsuario;
+        public static bool estado;
+
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
+            Application.Run(new Vistas.Clientes.rmClientes());
         }
     }
 }

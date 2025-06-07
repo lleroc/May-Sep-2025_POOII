@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controladores\AuthController.cs" />
+    <Compile Include="Controladores\ClientesController.cs" />
     <Compile Include="Controladores\UsuariosController.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -53,6 +55,9 @@
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\ClienteModelo.cs" />
+    <Compile Include="Modelos\Login.cs" />
+    <Compile Include="Modelos\Session.cs" />
     <Compile Include="Modelos\Usuarios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,11 +73,23 @@
     <Compile Include="Vistas\Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\Clientes\rmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Clientes\rmClientes.Designer.cs">
+      <DependentUpon>rmClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vistas\Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\frmUsuarioss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\frmUsuarioss.Designer.cs">
+      <DependentUpon>frmUsuarioss.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
@@ -91,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Clientes\rmClientes.resx">
+      <DependentUpon>rmClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
