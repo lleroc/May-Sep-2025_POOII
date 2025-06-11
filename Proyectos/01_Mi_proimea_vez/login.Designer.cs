@@ -38,13 +38,11 @@ namespace _01_Mi_proimea_vez
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.lstUsuarios = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.lstUsuarios);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.lbl_Mensaje);
             this.panel1.Controls.Add(this.label2);
@@ -56,7 +54,7 @@ namespace _01_Mi_proimea_vez
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1055, 669);
+            this.panel1.Size = new System.Drawing.Size(491, 353);
             this.panel1.TabIndex = 0;
             // 
             // label4
@@ -144,20 +142,11 @@ namespace _01_Mi_proimea_vez
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // lstUsuarios
-            // 
-            this.lstUsuarios.FormattingEnabled = true;
-            this.lstUsuarios.ItemHeight = 16;
-            this.lstUsuarios.Location = new System.Drawing.Point(550, 94);
-            this.lstUsuarios.Name = "lstUsuarios";
-            this.lstUsuarios.Size = new System.Drawing.Size(396, 436);
-            this.lstUsuarios.TabIndex = 1;
-            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1055, 669);
+            this.ClientSize = new System.Drawing.Size(491, 353);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Name = "login";
@@ -179,6 +168,5 @@ namespace _01_Mi_proimea_vez
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.ListBox lstUsuarios;
     }
 }

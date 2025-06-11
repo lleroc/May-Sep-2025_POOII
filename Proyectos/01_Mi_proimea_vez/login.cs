@@ -37,32 +37,11 @@ namespace _01_Mi_proimea_vez
             }
         }
 
-        public void ListaUsuarios() {
-
-            for (int i = 0; i < 10; i++)
-            {
-                var usr = new Modelos.Usuarios
-                {
-                    Apellido = "Llrena",
-                    Nombre = "Luis " + i.ToString(),
-                    Contrasenia = "123",
-                    correo = "Cooreo@gmail.com",
-                    Estado = true,
-                    Nombre_Usuario = "lleroc",
-                };
-                _usuariosController.insertar(usr);
-            }
-
-            var listaUsuario = _usuariosController.todos().ToList();
-            lstUsuarios.DataSource = listaUsuario;
-            lstUsuarios.ValueMember = "UsuarioId";
-            lstUsuarios.DisplayMember = "Nombre";
-        
-        }
+       
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            this.ListaUsuarios();
+          
         }
     }
 }
