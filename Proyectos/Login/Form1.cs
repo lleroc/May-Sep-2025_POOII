@@ -35,6 +35,8 @@ namespace Login
             }
             else {
                 MessageBox.Show(res);
+                lblMensaje.Text = res;
+                lblMensaje.Visible = true;
             }
         }
 

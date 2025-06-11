@@ -75,7 +75,7 @@ namespace Login
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.PasswordChar = '*';
             this.txtContrasenia.Size = new System.Drawing.Size(242, 34);
-            this.txtContrasenia.TabIndex = 14;
+            this.txtContrasenia.TabIndex = 2;
             // 
             // label3
             // 
@@ -99,7 +99,7 @@ namespace Login
             this.btnCancelar.Location = new System.Drawing.Point(226, 194);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(118, 51);
-            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -110,7 +110,7 @@ namespace Login
             this.txtUsuario.MaxLength = 50;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(242, 34);
-            this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.TabIndex = 1;
             // 
             // label1
             // 
@@ -129,7 +129,7 @@ namespace Login
             this.btnGuardar.Location = new System.Drawing.Point(102, 194);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(118, 51);
-            this.btnGuardar.TabIndex = 8;
+            this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
