@@ -56,9 +56,5 @@ namespace Login.Controllers
             Program.Estado = 0;
             Program.UsuarioId = 0;
         }
-
-
-
-
     }
 }

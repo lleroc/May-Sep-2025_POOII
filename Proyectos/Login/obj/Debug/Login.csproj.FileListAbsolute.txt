@@ -8,3 +8,4 @@ Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Login\obj\Debug\Login.cspr
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Login\obj\Debug\Login.exe
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Login\obj\Debug\Login.pdb
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Login\obj\Debug\Login.Vistas.Autores.resources

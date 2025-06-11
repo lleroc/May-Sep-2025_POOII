@@ -71,7 +71,9 @@ namespace Login
             // txtContrasenia
             // 
             this.txtContrasenia.Location = new System.Drawing.Point(102, 154);
+            this.txtContrasenia.MaxLength = 50;
             this.txtContrasenia.Name = "txtContrasenia";
+            this.txtContrasenia.PasswordChar = '*';
             this.txtContrasenia.Size = new System.Drawing.Size(242, 34);
             this.txtContrasenia.TabIndex = 14;
             // 
@@ -100,10 +102,12 @@ namespace Login
             this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(102, 85);
+            this.txtUsuario.MaxLength = 50;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(242, 34);
             this.txtUsuario.TabIndex = 2;
@@ -128,6 +132,7 @@ namespace Login
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Form1
             // 
