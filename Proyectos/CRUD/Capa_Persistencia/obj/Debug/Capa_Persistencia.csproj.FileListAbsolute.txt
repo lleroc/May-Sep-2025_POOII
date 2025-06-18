@@ -1,0 +1,4 @@
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\Capa_Persistencia\obj\Debug\Capa_Persistencia.Form1.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\Capa_Persistencia\obj\Debug\Capa_Persistencia.Properties.Resources.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\Capa_Persistencia\obj\Debug\Capa_Persistencia.csproj.GenerateResource.cache
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\Capa_Persistencia\obj\Debug\Capa_Persistencia.csproj.CoreCompileInputs.cache

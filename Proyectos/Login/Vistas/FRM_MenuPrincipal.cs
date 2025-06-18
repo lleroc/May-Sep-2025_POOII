@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Login.Vistas
 {
-    public partial class Autores : Form
+    public partial class FRM_MenuPrincipal : Form
     {
-        public Autores()
+        public FRM_MenuPrincipal()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

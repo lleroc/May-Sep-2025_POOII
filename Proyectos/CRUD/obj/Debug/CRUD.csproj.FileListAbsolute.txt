@@ -1,0 +1,5 @@
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\obj\Debug\Login.Form1.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache

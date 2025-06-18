@@ -14,5 +14,8 @@ namespace Login.Models
         public string Contrasenia { get; set; }
         public string Correo { get; set; }
         public bool Estado { get; set; }
+
+
+
     }
 }

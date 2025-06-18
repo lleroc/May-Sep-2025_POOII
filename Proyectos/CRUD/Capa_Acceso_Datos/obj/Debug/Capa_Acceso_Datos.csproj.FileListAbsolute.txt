@@ -1,0 +1,1 @@
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\CRUD\Capa_Acceso_Datos\obj\Debug\Capa_Acceso_Datos.csproj.CoreCompileInputs.cache
