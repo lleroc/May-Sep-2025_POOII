@@ -1,0 +1,25 @@
+﻿CREATE TABLE paises (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE provincias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    id_pais INT NOT NULL,
+    FOREIGN KEY (id_pais) REFERENCES paises(id)
+);
+
+
+
+-- Insertar países
+INSERT INTO paises (nombre) VALUES ('Ecuador'), ('Argentina'), ('México');
+
+-- Insertar provincias
+INSERT INTO provincias (nombre, id_pais) VALUES 
+('Pichincha', 1),
+('Guayas', 1),
+('Buenos Aires', 2),
+('Córdoba', 2),
+('Jalisco', 3),
+('Nuevo León', 3);
