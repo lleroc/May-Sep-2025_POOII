@@ -19,5 +19,12 @@ namespace Mysql.Aplicacion
         {
             return _usuarioDAO.eliminar(UsuarioId);
         }
+        public Datos.UsuarioDTO uno(int UsuarioId) {
+            return _usuarioDAO.uno(UsuarioId);
+        }
+        public string editar(Datos.UsuarioDTO usuarioDTO)
+        {
+            return _usuarioDAO.editar(usuarioDTO);
+        }
     }
 }

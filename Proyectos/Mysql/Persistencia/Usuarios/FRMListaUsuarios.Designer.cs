@@ -35,6 +35,7 @@ namespace Mysql.Persistencia.Usuarios
             this.btnEliminarUsuario = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstUsuarios
@@ -64,6 +65,7 @@ namespace Mysql.Persistencia.Usuarios
             this.btnEditarUsuario.TabIndex = 2;
             this.btnEditarUsuario.Text = "Editar";
             this.btnEditarUsuario.UseVisualStyleBackColor = true;
+            this.btnEditarUsuario.Click += new System.EventHandler(this.btnEditarUsuario_Click);
             // 
             // btnEliminarUsuario
             // 
@@ -93,11 +95,22 @@ namespace Mysql.Persistencia.Usuarios
             this.label1.TabIndex = 5;
             this.label1.Text = "Gestion de Usuarios";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(133, 475);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 75);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Editar 2";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FRMListaUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 492);
+            this.ClientSize = new System.Drawing.Size(524, 619);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnEliminarUsuario);
@@ -105,7 +118,7 @@ namespace Mysql.Persistencia.Usuarios
             this.Controls.Add(this.btnNuevoUsuario);
             this.Controls.Add(this.lstUsuarios);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FRMListaUsuarios";
             this.Text = "FRMListaUsuarios";
             this.Activated += new System.EventHandler(this.FRMListaUsuarios_Activated);
@@ -123,5 +136,6 @@ namespace Mysql.Persistencia.Usuarios
         private System.Windows.Forms.Button btnEliminarUsuario;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

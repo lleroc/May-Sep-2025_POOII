@@ -31,11 +31,25 @@ namespace Mysql.Persistencia.Usuarios
             if (_usuarioService.insertar(user) == "ok")
             {
                 MessageBox.Show("Se guardo con exito");
+                limpiarcajas();
+                this.Close();
+
             }
             else
             {
                 MessageBox.Show("Ocurrio un error al guadar");
             }
+        }
+
+        public void limpiarcajas() {
+            txtContrasenia.Text = "";
+            txtCorreo.Text = "";
+            txtnombre.Text = "";
+
+        }
+        private void FRMNuevoUsuario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

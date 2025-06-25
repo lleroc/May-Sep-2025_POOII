@@ -43,10 +43,10 @@ namespace Mysql.Persistencia.Usuarios
             // btnGrabar
             // 
             this.btnGrabar.Location = new System.Drawing.Point(27, 325);
-            this.btnGrabar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(5);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(131, 42);
-            this.btnGrabar.TabIndex = 0;
+            this.btnGrabar.TabIndex = 4;
             this.btnGrabar.Text = "Guardar";
             this.btnGrabar.UseVisualStyleBackColor = true;
             this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
@@ -64,10 +64,10 @@ namespace Mysql.Persistencia.Usuarios
             // txtnombre
             // 
             this.txtnombre.Location = new System.Drawing.Point(27, 113);
-            this.txtnombre.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(5);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(272, 34);
-            this.txtnombre.TabIndex = 2;
+            this.txtnombre.TabIndex = 1;
             // 
             // btnCancelar
             // 
@@ -75,7 +75,7 @@ namespace Mysql.Persistencia.Usuarios
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(131, 42);
-            this.btnCancelar.TabIndex = 3;
+            this.btnCancelar.TabIndex = 5;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
@@ -105,7 +105,7 @@ namespace Mysql.Persistencia.Usuarios
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(5);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(272, 34);
-            this.txtCorreo.TabIndex = 5;
+            this.txtCorreo.TabIndex = 2;
             // 
             // label4
             // 
@@ -123,7 +123,7 @@ namespace Mysql.Persistencia.Usuarios
             this.txtContrasenia.Margin = new System.Windows.Forms.Padding(5);
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.Size = new System.Drawing.Size(272, 34);
-            this.txtContrasenia.TabIndex = 7;
+            this.txtContrasenia.TabIndex = 3;
             // 
             // FRMNuevoUsuario
             // 
@@ -140,9 +140,10 @@ namespace Mysql.Persistencia.Usuarios
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnGrabar);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FRMNuevoUsuario";
             this.Text = "FRMNuevoUsuario";
+            this.Load += new System.EventHandler(this.FRMNuevoUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

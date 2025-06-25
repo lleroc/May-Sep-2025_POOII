@@ -114,6 +114,12 @@
     <Compile Include="Persistencia\Usuarios\FRMEditarUsuario.Designer.cs">
       <DependentUpon>FRMEditarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Persistencia\Usuarios\FRMEliminarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persistencia\Usuarios\FRMEliminarUsuario.Designer.cs">
+      <DependentUpon>FRMEliminarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persistencia\Usuarios\FRMListaUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persistencia\Usuarios\FRMEditarUsuario.resx">
+      <DependentUpon>FRMEditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persistencia\Usuarios\FRMEliminarUsuario.resx">
+      <DependentUpon>FRMEliminarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Persistencia\Usuarios\FRMListaUsuarios.resx">
       <DependentUpon>FRMListaUsuarios.cs</DependentUpon>

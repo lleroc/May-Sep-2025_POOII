@@ -37,7 +37,7 @@ namespace Mysql.Persistencia.Usuarios
 
         private void FRMListaUsuarios_Activated(object sender, EventArgs e)
         {
-            //this.cargaLista();
+            this.cargaLista();
         }
 
         private void btnEliminarUsuario_Click(object sender, EventArgs e)
@@ -55,6 +55,31 @@ namespace Mysql.Persistencia.Usuarios
             }else
             {
                 MessageBox.Show("Ocurrio un error al eliminar");
+            }
+        }
+
+        private void btnEditarUsuario_Click(object sender, EventArgs e)
+        {
+            if (lstUsuarios.SelectedIndex == -1)
+            {
+                MessageBox.Show("Seleccione un usuario de la lista");
+                lstUsuarios.Focus();
+                return;
+            }
+            FRMEditarUsuario fRMEditarUsuario = new FRMEditarUsuario(Convert.ToInt32(lstUsuarios.SelectedValue));
+            fRMEditarUsuario.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (lstUsuarios.SelectedIndex == -1)
+            {
+                MessageBox.Show("Seleccione un usaurio de la lista");
+            }
+            else {
+                FRMEliminarUsuario fRMEliminarUsuario = new FRMEliminarUsuario();
+                fRMEliminarUsuario._usuarioId = Convert.ToInt32(lstUsuarios.SelectedValue);
+                fRMEliminarUsuario.Show();
             }
         }
     }

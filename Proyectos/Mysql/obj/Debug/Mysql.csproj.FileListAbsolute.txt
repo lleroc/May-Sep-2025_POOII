@@ -43,3 +43,5 @@ Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Mysql\obj\Debug\Mysql.exe
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Mysql\obj\Debug\Mysql.pdb
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Mysql\obj\Debug\Mysql.Persistencia.Usuarios.FRMListaUsuarios.resources
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Mysql\obj\Debug\Mysql.Persistencia.Usuarios.FRMNuevoUsuario.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Mysql\obj\Debug\Mysql.Persistencia.Usuarios.FRMEditarUsuario.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Mysql\obj\Debug\Mysql.Persistencia.Usuarios.FRMEliminarUsuario.resources

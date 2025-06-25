@@ -64,7 +64,6 @@ namespace Mysql.AccesoDatos
 
         }
 
-
         public string eliminar(int UsuarioId)
         {
             using (MySqlConnection cn = _conexion.AbrirConexion())
@@ -86,6 +85,65 @@ namespace Mysql.AccesoDatos
 
             }
 
+        }
+
+        public Datos.UsuarioDTO uno(int UsuarioId) {
+            using (MySqlConnection cn = _conexion.AbrirConexion())
+            {
+                string cadena = "SELECT * FROM `usuarios` where UsuarioId=" + UsuarioId;
+                using (MySqlCommand cmd = new MySqlCommand(cadena, cn))
+                {
+                    using (MySqlDataReader lector = cmd.ExecuteReader())
+                    {
+                        if (lector.HasRows)
+                        {
+                            lector.Read();
+                            Datos.UsuarioDTO user = new Datos.UsuarioDTO
+                            {
+                                Correo = lector.GetString(2),
+                                Nombre = lector.GetString(1),
+                                password = lector.GetString(3),
+                                UsuarioId = lector.GetInt32(0)
+                            };
+                            return user;
+                        }
+                        else
+                        {
+                            return new Datos.UsuarioDTO
+                            {
+                                Nombre = "Error. No se encontro el usuario",
+                                UsuarioId = 0
+                            };
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        public string editar(Datos.UsuarioDTO usuarioDTO)
+        {
+            using (MySqlConnection cn = _conexion.AbrirConexion())
+            {
+                string cadena =
+                       "UPDATE `usuarios` SET `Nombre`='@Nombre',`correo`='@correo'," +
+                       "`password`='@pwd' WHERE `UsuarioId`=@UsuarioId";
+                MySqlCommand sqlCommand = new MySqlCommand(cadena, cn);
+                sqlCommand.Parameters.AddWithValue("@Nombre", usuarioDTO.Nombre);
+                sqlCommand.Parameters.AddWithValue("@correo", usuarioDTO.Correo);
+                sqlCommand.Parameters.AddWithValue("@pwd", usuarioDTO.password);
+                sqlCommand.Parameters.AddWithValue("@UsuarioId", usuarioDTO.UsuarioId);
+                int filasAfectadas = sqlCommand.ExecuteNonQuery();
+                if (filasAfectadas > 0)
+                {
+                    return "ok";
+                }
+                else
+                {
+                    return "error";
+                }
+            }
         }
     }
 }
