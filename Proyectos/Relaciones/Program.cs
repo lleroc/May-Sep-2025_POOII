@@ -16,7 +16,12 @@ namespace Relaciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            var frmProvincia = new View.Provincias.FRMProvincias();
+            var presenteer = new Presenter.ProvinciaPresenter(frmProvincia);
+
+           
+            Application.Run(frmProvincia);
         }
     }
 }
