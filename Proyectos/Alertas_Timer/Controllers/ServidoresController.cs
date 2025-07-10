@@ -1,4 +1,6 @@
-﻿using Alertas_Timer.DATA;
+﻿using Alertas_Timer.Data;
+using Alertas_Timer.DATA;
+using Alertas_Timer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +16,24 @@ namespace Alertas_Timer.Controllers
             _timerDbContext = new TimerDbContext();
         }
 
-        
+        public List<ServidorModel> todos() { 
+            return _timerDbContext.Servidores.ToList();     
+        }
+
+        public ServidorModel uno(int id) {
+            return _timerDbContext.Servidores.Find(id);
+        }
+        public string insertar(ServidorModel servidorModel) {
+                if (servidorModel == null)
+                {
+                    MessageBox.Show("Los Datos del Servidor estan vacio, por favor complete los campos");
+                    return "error";
+                }
+                else {
+                    _timerDbContext.Servidores.Add(servidorModel);  
+                    _timerDbContext.SaveChanges();
+                    return "ok";
+                }
+        }
     }
 }

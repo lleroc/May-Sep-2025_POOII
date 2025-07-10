@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alertas_Timer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb8d656c476a8a69286d415f3a24e3dc1a86ae65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ebe17dcc8b948e67c4ee70fb2367bea4f47671d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alertas_Timer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alertas_Timer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,6 +18,7 @@ namespace Alertas_Timer.Controllers
         }
 
         public List<AlertaModel> todos() {
+           
             return _timerDbContext.Alertas
                 .Include(parametros => parametros.Parametros)
                 .Include(servidores => servidores.Servidores)

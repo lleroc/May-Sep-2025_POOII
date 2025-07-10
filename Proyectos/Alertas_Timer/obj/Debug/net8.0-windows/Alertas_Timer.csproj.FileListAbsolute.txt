@@ -98,3 +98,6 @@ Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\ne
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\net8.0-windows\Alertas_Timer.pdb
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\net8.0-windows\Alertas_Timer.genruntimeconfig.cache
 Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\net8.0-windows\ref\Alertas_Timer.dll
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\net8.0-windows\Alertas_Timer.Views.frm_menu.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\net8.0-windows\Alertas_Timer.Views.Parametros.frm_parametros.resources
+Z:\Uniandes\Estudiantes\POO II\May Sep 2025\Proyectos\Alertas_Timer\obj\Debug\net8.0-windows\Alertas_Timer.Views.Servidores.frm_servidores.resources
